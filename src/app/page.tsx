@@ -31,7 +31,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-[#0A6DED] rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-[#1AB27C] rounded-lg flex items-center justify-center">
                 <Heart className="w-6 h-6 text-white fill-white" />
               </div>
               <span className="text-2xl font-bold text-gray-900">
@@ -39,24 +39,24 @@ export default function Home() {
               </span>
             </div>
             <div className="hidden md:flex items-center gap-8">
-              <a href="#home" className="text-gray-700 hover:text-[#0A6DED]">
+              <a href="#home" className="text-gray-700 hover:text-[#1AB27C]">
                 Home
               </a>
-              <a href="#doctor" className="text-gray-700 hover:text-[#0A6DED]">
+              <a href="#doctor" className="text-gray-700 hover:text-[#1AB27C]">
                 Doctor
               </a>
               <a
                 href="#services"
-                className="text-gray-700 hover:text-[#0A6DED]"
+                className="text-gray-700 hover:text-[#1AB27C]"
               >
                 Services
               </a>
-              <a href="#products" className="text-gray-700 hover:text-[#0A6DED]">
+              <a href="#products" className="text-gray-700 hover:text-[#1AB27C]">
                 Products
               </a>
             </div>
             <div className="flex items-center gap-4">
-              <Button className="bg-[#0A6DED] hover:bg-[#0855c7] hidden md:flex">
+              <Button className="bg-[#1AB27C] hover:bg-[#0855c7] hidden md:flex">
                 Book Appointment
                 <ChevronRight className="w-4 h-4 ml-1" />
               </Button>
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
-                <Activity className="w-4 h-4 text-[#0A6DED]" />
+                <Activity className="w-4 h-4 text-[#1AB27C]" />
                 <span className="text-sm font-medium">Insights</span>
                 <Badge className="bg-yellow-100 text-yellow-800 hover:bg-yellow-100">
                   NEW
@@ -88,7 +88,7 @@ export default function Home() {
                 Chronic meds, OTC essentials, baby care, wellness supplements, and fast delivery — all under one roof.
               </p>
               <div className="flex flex-wrap items-center gap-4">
-                <Button className="bg-[#0A6DED] hover:bg-[#0855c7] text-white px-8 py-6 text-lg">
+                <Button className="bg-[#1AB27C] hover:bg-[#0855c7] text-white px-8 py-6 text-lg">
                   Shop Now
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
@@ -119,7 +119,7 @@ export default function Home() {
                 />
               </div>
               <div className="absolute -top-10 -right-10 w-64 h-64 bg-white/50 rounded-full blur-3xl"></div>
-              <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-[#0A6DED]/20 rounded-full blur-3xl"></div>
+              <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-[#1AB27C]/20 rounded-full blur-3xl"></div>
             </div>
           </div>
         </div>
@@ -249,7 +249,7 @@ export default function Home() {
                     </span>
                     <Button
                       size="sm"
-                      className="bg-[#0A6DED] hover:bg-[#0855c7]"
+                      className="bg-[#1AB27C] hover:bg-[#0855c7]"
                     >
                       <ShoppingCart className="w-4 h-4 mr-2" />
                       Shop Now
@@ -319,8 +319,8 @@ export default function Home() {
                 key={index}
                 className="p-6 hover:shadow-lg transition-shadow cursor-pointer"
               >
-                <div className="w-14 h-14 bg-[#0A6DED]/10 rounded-xl flex items-center justify-center mb-4">
-                  <service.icon className="w-7 h-7 text-[#0A6DED]" />
+                <div className="w-14 h-14 bg-[#1AB27C]/10 rounded-xl flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-[#1AB27C]" />
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">
                   {service.name}
@@ -487,9 +487,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="bg-[#1e3a8a] text-white p-8 overflow-hidden relative">
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-2">Nathan M.</h3>
+                <h3 className="text-2xl font-bold mb-2">Tawanda Mudzimba</h3>
                 <p className="text-blue-200 mb-4">
-                  BPharm (UZ), 10+ years experience
+                  BPharm (UZ), 12 years experience
                   <br />
                   Pharmacist-in-Charge
                 </p>
@@ -509,7 +509,7 @@ export default function Home() {
 
             <Card className="bg-gray-50 p-8 overflow-hidden relative">
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-2 text-gray-900">Nyasha Mukonza</h3>
+                <h3 className="text-2xl font-bold mb-2 text-gray-900">Kundai Jiri</h3>
                 <p className="text-gray-600 mb-4">
                   Customer Care Lead
                   <br />
@@ -595,7 +595,7 @@ export default function Home() {
                 <br />
                 within 2-hours
               </h2>
-              <Button className="bg-white text-[#0A6DED] hover:bg-gray-100">
+              <Button className="bg-white text-[#1AB27C] hover:bg-gray-100">
                 Order Now
                 <ChevronRight className="w-4 h-4 ml-2" />
               </Button>
@@ -662,10 +662,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-[#0A6DED] rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-[#1AB27C] rounded-lg flex items-center justify-center">
                   <Heart className="w-6 h-6 text-white fill-white" />
                 </div>
-                <span className="text-xl font-bold">Sanctuary Pharmacy</span>
+                <span className="text-xl font-bold">Dis-Pharm Pharmacy</span>
               </div>
               <p className="text-gray-400 text-sm">
                 Your trusted pharmacy in Harare, Zimbabwe
@@ -677,19 +677,19 @@ export default function Home() {
                 <div className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
-                    <div>+263 78 456 7890</div>
+                    <div>+263 78 221 3344</div>
                     <div className="text-xs">WhatsApp Available</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <Mail className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>info@sanctuarypharmacy.co.zw</div>
+                  <div>info@dispharm.co.zw</div>
                 </div>
                 <div className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
                     <div className="text-red-400">Emergency (After Hours)</div>
-                    <div>+263 77 222 1199</div>
+                    <div>+263 77 552 0091</div>
                   </div>
                 </div>
               </div>
@@ -700,15 +700,15 @@ export default function Home() {
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
-                    <div className="font-medium text-white">Main Branch</div>
-                    <div>12 Borrowdale Road, Borrowdale, Harare</div>
+                    <div className="font-medium text-white">Avondale Branch</div>
+                    <div>Shop 3, Avondale Shopping Centre, Harare</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
-                    <div className="font-medium text-white">Second Branch</div>
-                    <div>Joina City Mall, Ground Floor, Harare CBD</div>
+                    <div className="font-medium text-white">Westgate Branch</div>
+                    <div>Westgate Shopping Mall, Harare</div>
                   </div>
                 </div>
               </div>
@@ -720,23 +720,23 @@ export default function Home() {
                   <Clock className="w-4 h-4 flex-shrink-0" />
                   <div>
                     <div className="font-medium text-white">Mon - Fri</div>
-                    <div>8:00am – 7:00pm</div>
+                    <div>8:00am – 8:00pm</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 flex-shrink-0" />
                   <div>
                     <div className="font-medium text-white">Saturday</div>
-                    <div>8:00am – 5:00pm</div>
+                    <div>8:00am – 6:00pm</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 flex-shrink-0" />
                   <div>
                     <div className="font-medium text-white">
-                      Sunday & Holidays
+                      Sunday
                     </div>
-                    <div>9:00am – 1:00pm</div>
+                    <div>9:00am – 2:00pm</div>
                   </div>
                 </div>
               </div>
@@ -745,7 +745,7 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <p className="text-sm text-gray-400">
-                © 2025 Sanctuary Pharmacy. All rights reserved.
+                © 2025 Dis-Pharm Pharmacy. All rights reserved.
               </p>
               <div className="flex items-center gap-6 text-sm text-gray-400">
                 <a href="#" className="hover:text-white">
@@ -762,7 +762,7 @@ export default function Home() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/263784567890"
+        href="https://wa.me/263782213344"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors z-50"
@@ -771,15 +771,15 @@ export default function Home() {
       </a>
 
       {/* Stock Check Floating Button */}
-      <button className="fixed bottom-24 right-6 bg-[#0A6DED] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#0855c7] transition-colors z-50 flex items-center gap-2">
+      <button className="fixed bottom-24 right-6 bg-[#1AB27C] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#0855c7] transition-colors z-50 flex items-center gap-2">
         <Search className="w-5 h-5" />
         <span className="font-medium">Check Stock</span>
       </button>
 
       {/* Call Voice Agent Button */}
       <a
-        href="tel:+263784567890"
-        className="fixed bottom-40 right-6 bg-[#0A6DED] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#0855c7] transition-colors z-50 flex items-center gap-2"
+        href="tel:+263775520091"
+        className="fixed bottom-40 right-6 bg-[#1AB27C] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#158a66] transition-colors z-50 flex items-center gap-2"
       >
         <Phone className="w-5 h-5" />
         <span className="font-medium">Call 24/7</span>
